@@ -1,0 +1,50 @@
+version: "1"
+
+run:
+  timeout: 5m
+  tests: true
+  # Ensures we don't accidentally use a different go version's stdlib
+  modules-download-mode: readonly
+
+linters-settings:
+  govet:
+    # Check for shadowed variables (common source of bugs in Go)
+    enable:
+      - shadow
+  cyclop:
+    max-complexity: 15
+  dupl:
+    threshold: 100
+  gocritic:
+    enabled-tags:
+      - diagnostic
+      - performance
+      - style
+
+linters:
+  disable-all: true
+  enable:
+    - bodyclose
+    - cyclop
+    - depguard
+    - dogsled
+    - errcheck
+    - goconst
+    - gocritic
+    - gofmt
+    - goimports
+    - gosec
+    - govet
+    - misspell
+    - nakedret
+    - prealloc
+    - staticcheck
+    - unparam
+    - whitespace
+
+issues:
+  exclude-rules:
+    - path: _test\.go
+      linters:
+        - errcheck
+        - dupl

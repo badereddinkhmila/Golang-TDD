@@ -1,0 +1,883 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=5&offset=0
+127.0.0.1 - [Sat, 18 Apr 2026 14:04:40 CET] "GET /users/?limit=5&offset=0 HTTP/1.1 500 11.560292ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 14:04:40 |[97;41m 500 [0m|[90;47m  11.66ms [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=5&offset=0"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=5&offset=0
+127.0.0.1 - [Sat, 18 Apr 2026 14:06:43 CET] "GET /users/?limit=5&offset=0 HTTP/1.1 200 8.559584ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 14:06:43 |[97;42m 200 [0m|[90;47m   8.64ms [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=5&offset=0"
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=20&offset=0
+127.0.0.1 - [Sat, 18 Apr 2026 15:11:28 CET] "GET /users/?limit=20&offset=0 HTTP/1.1 200 1.655917ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 15:11:28 |[97;42m 200 [0m|[90;47m    1.7ms [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=20&offset=0"
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 15:12:32 CET] "POST /users/ HTTP/1.1 500 1.467875ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 15:12:32 |[97;41m 500 [0m|[90;47m   1.64ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 15:16:23 CET] "POST /users/ HTTP/1.1 500 5.226083ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 15:16:23 |[97;41m 500 [0m|[90;47m   5.28ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 15:18:00 CET] "POST /users/ HTTP/1.1 500 7.261792ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 15:18:00 |[97;41m 500 [0m|[90;47m    7.3ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 15:23:50 CET] "POST /users/ HTTP/1.1 500 7.566583ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 15:23:50 |[97;41m 500 [0m|[90;47m   7.65ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=20&offset=0
+127.0.0.1 - [Sat, 18 Apr 2026 15:24:15 CET] "GET /users/?limit=20&offset=0 HTTP/1.1 200 980.459µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 15:24:15 |[97;42m 200 [0m|[90;47m    1.1ms [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=20&offset=0"
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=10&offset=2
+127.0.0.1 - [Sat, 18 Apr 2026 15:24:30 CET] "GET /users/?limit=10&offset=2 HTTP/1.1 200 548.958µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 15:24:30 |[97;42m 200 [0m|[90;47m 641.375µs [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=10&offset=2"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=10&offset=2
+127.0.0.1 - [Sat, 18 Apr 2026 15:25:18 CET] "GET /users/?limit=10&offset=2 HTTP/1.1 200 11.409875ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 15:25:18 |[97;42m 200 [0m|[90;47m   11.5ms [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=10&offset=2"
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 15:25:51 CET] "POST /users/ HTTP/1.1 500 1.85775ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 15:25:51 |[97;41m 500 [0m|[90;47m   1.91ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 15:31:07 CET] "POST /users/ HTTP/1.1 500 7.332333ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 15:31:07 |[97;41m 500 [0m|[90;47m    7.4ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 15:31:15 CET] "POST /users/ HTTP/1.1 500 2.021208ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 15:31:15 |[97;41m 500 [0m|[90;47m   2.07ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 15:32:55 CET] "POST /users/ HTTP/1.1 500 11.254791ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 15:32:55 |[97;41m 500 [0m|[90;47m  11.38ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 15:37:40 CET] "POST /users/ HTTP/1.1 500 5.691375ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 15:37:40 |[97;41m 500 [0m|[90;47m   5.78ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 15:37:45 CET] "POST /users/ HTTP/1.1 500 1.616083ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 15:37:45 |[97;41m 500 [0m|[90;47m   1.67ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 15:38:30 CET] "POST /users/ HTTP/1.1 500 4.827041ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 15:38:30 |[97;41m 500 [0m|[90;47m   4.89ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 17:54:54 CET] "POST /users/ HTTP/1.1 500 13.219709ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 17:54:54 |[97;41m 500 [0m|[90;47m  13.27ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 17:55:27 CET] "POST /users/ HTTP/1.1 201 15.368333ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 17:55:27 |[97;42m 201 [0m|[90;47m   15.4ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 17:56:04 CET] "POST /users/ HTTP/1.1 201 11.231791ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 17:56:04 |[97;42m 201 [0m|[90;47m  11.28ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 17:56:19 CET] "POST /users/ HTTP/1.1 500 444.708µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 17:56:19 |[97;41m 500 [0m|[90;47m 496.375µs [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 17:56:24 CET] "POST /users/ HTTP/1.1 201 1.087542ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 17:56:24 |[97;42m 201 [0m|[90;47m   1.14ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=10&offset=2
+127.0.0.1 - [Sat, 18 Apr 2026 18:35:05 CET] "GET /users/?limit=10&offset=2 HTTP/1.1 200 6.844792ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:35:05 |[97;42m 200 [0m|[90;47m   6.96ms [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=10&offset=2"
+127.0.0.1 - [Sat, 18 Apr 2026 18:35:22 CET] "DELETE /users/?id=28 HTTP/1.1 404 583ns "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:35:22 |[90;43m 404 [0m|[90;47m 109.917µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/?id=28"
+127.0.0.1 - [Sat, 18 Apr 2026 18:36:41 CET] "DELETE /users/28 HTTP/1.1 500 1.104459ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:36:41 |[97;41m 500 [0m|[90;47m   1.37ms [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/28"
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 18:36:53 CET] "POST /users/ HTTP/1.1 500 1.407125ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:36:53 |[97;41m 500 [0m|[90;47m   1.44ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+127.0.0.1 - [Sat, 18 Apr 2026 18:37:01 CET] "DELETE /users/28 HTTP/1.1 500 384.666µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:37:01 |[97;41m 500 [0m|[90;47m 463.708µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/28"
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=10&offset=2
+127.0.0.1 - [Sat, 18 Apr 2026 18:37:04 CET] "GET /users/?limit=10&offset=2 HTTP/1.1 200 371.542µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:37:04 |[97;42m 200 [0m|[90;47m 410.667µs [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=10&offset=2"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+127.0.0.1 - [Sat, 18 Apr 2026 18:56:52 CET] "DELETE /users/27 HTTP/1.1 204 6.396708ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:56:52 |[97;42m 204 [0m|[90;47m   6.61ms [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/27"
+127.0.0.1 - [Sat, 18 Apr 2026 18:57:28 CET] "DELETE /users/26 HTTP/1.1 204 380.375µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:57:28 |[97;42m 204 [0m|[90;47m 737.417µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/26"
+127.0.0.1 - [Sat, 18 Apr 2026 18:57:32 CET] "DELETE /users/25 HTTP/1.1 204 298.584µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:57:32 |[97;42m 204 [0m|[90;47m 381.584µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/25"
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=10&offset=2
+127.0.0.1 - [Sat, 18 Apr 2026 18:57:44 CET] "GET /users/?limit=10&offset=2 HTTP/1.1 200 989.667µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:57:44 |[97;42m 200 [0m|[90;47m   1.09ms [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=10&offset=2"
+127.0.0.1 - [Sat, 18 Apr 2026 18:57:55 CET] "DELETE /users/29 HTTP/1.1 204 298.75µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:57:55 |[97;42m 204 [0m|[90;47m 395.458µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/29"
+127.0.0.1 - [Sat, 18 Apr 2026 18:57:59 CET] "DELETE /users/24 HTTP/1.1 204 389.458µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:57:59 |[97;42m 204 [0m|[90;47m 800.333µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/24"
+127.0.0.1 - [Sat, 18 Apr 2026 18:58:08 CET] "DELETE /users/23 HTTP/1.1 204 412.333µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:58:08 |[97;42m 204 [0m|[90;47m 505.333µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/23"
+127.0.0.1 - [Sat, 18 Apr 2026 18:58:12 CET] "DELETE /users/22 HTTP/1.1 204 317.959µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:58:12 |[97;42m 204 [0m|[90;47m 412.458µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/22"
+127.0.0.1 - [Sat, 18 Apr 2026 18:58:15 CET] "DELETE /users/21 HTTP/1.1 204 292µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:58:15 |[97;42m 204 [0m|[90;47m 390.292µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/21"
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=10&offset=2
+127.0.0.1 - [Sat, 18 Apr 2026 18:58:18 CET] "GET /users/?limit=10&offset=2 HTTP/1.1 200 349.542µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:58:18 |[97;42m 200 [0m|[90;47m   1.53ms [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=10&offset=2"
+127.0.0.1 - [Sat, 18 Apr 2026 18:59:08 CET] "DELETE /users/0 HTTP/1.1 204 2.234ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:59:08 |[97;42m 204 [0m|[90;47m   2.57ms [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/0"
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=10&offset=2
+127.0.0.1 - [Sat, 18 Apr 2026 18:59:13 CET] "GET /users/?limit=10&offset=2 HTTP/1.1 200 472.334µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:59:13 |[97;42m 200 [0m|[90;47m 538.458µs [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=10&offset=2"
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=10&offset=1
+127.0.0.1 - [Sat, 18 Apr 2026 18:59:26 CET] "GET /users/?limit=10&offset=1 HTTP/1.1 200 528µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:59:26 |[97;42m 200 [0m|[90;47m 597.625µs [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=10&offset=1"
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=30&offset=0
+127.0.0.1 - [Sat, 18 Apr 2026 18:59:35 CET] "GET /users/?limit=30&offset=0 HTTP/1.1 200 422.5µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:59:35 |[97;42m 200 [0m|[90;47m    497µs [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=30&offset=0"
+127.0.0.1 - [Sat, 18 Apr 2026 18:59:48 CET] "DELETE /users/20 HTTP/1.1 204 378.875µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:59:48 |[97;42m 204 [0m|[90;47m 474.583µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/20"
+127.0.0.1 - [Sat, 18 Apr 2026 18:59:51 CET] "DELETE /users/20 HTTP/1.1 204 552.875µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:59:51 |[97;42m 204 [0m|[90;47m 801.042µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/20"
+127.0.0.1 - [Sat, 18 Apr 2026 18:59:53 CET] "DELETE /users/20 HTTP/1.1 204 280.833µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:59:53 |[97;42m 204 [0m|[90;47m 372.833µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/20"
+127.0.0.1 - [Sat, 18 Apr 2026 18:59:53 CET] "DELETE /users/20 HTTP/1.1 204 340.667µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:59:53 |[97;42m 204 [0m|[90;47m 432.458µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/20"
+127.0.0.1 - [Sat, 18 Apr 2026 18:59:54 CET] "DELETE /users/20 HTTP/1.1 204 353µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:59:54 |[97;42m 204 [0m|[90;47m 429.875µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/20"
+127.0.0.1 - [Sat, 18 Apr 2026 18:59:54 CET] "DELETE /users/20 HTTP/1.1 204 293.625µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:59:54 |[97;42m 204 [0m|[90;47m 379.041µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/20"
+127.0.0.1 - [Sat, 18 Apr 2026 18:59:55 CET] "DELETE /users/20 HTTP/1.1 204 318.417µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:59:55 |[97;42m 204 [0m|[90;47m 398.333µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/20"
+127.0.0.1 - [Sat, 18 Apr 2026 18:59:55 CET] "DELETE /users/20 HTTP/1.1 204 306.417µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:59:55 |[97;42m 204 [0m|[90;47m  406.5µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/20"
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=30&offset=0
+127.0.0.1 - [Sat, 18 Apr 2026 18:59:59 CET] "GET /users/?limit=30&offset=0 HTTP/1.1 200 444.333µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 18:59:59 |[97;42m 200 [0m|[90;47m 494.917µs [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=30&offset=0"
+127.0.0.1 - [Sat, 18 Apr 2026 19:00:04 CET] "DELETE /users/20 HTTP/1.1 204 266.916µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 19:00:04 |[97;42m 204 [0m|[90;47m 346.417µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/20"
+127.0.0.1 - [Sat, 18 Apr 2026 19:00:05 CET] "DELETE /users/20 HTTP/1.1 204 304.708µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 19:00:05 |[97;42m 204 [0m|[90;47m  350.5µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/20"
+127.0.0.1 - [Sat, 18 Apr 2026 19:00:05 CET] "DELETE /users/20 HTTP/1.1 204 324.584µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 19:00:05 |[97;42m 204 [0m|[90;47m 418.542µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/20"
+127.0.0.1 - [Sat, 18 Apr 2026 19:00:05 CET] "DELETE /users/20 HTTP/1.1 204 279.291µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 19:00:05 |[97;42m 204 [0m|[90;47m 322.375µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/20"
+127.0.0.1 - [Sat, 18 Apr 2026 19:00:05 CET] "DELETE /users/20 HTTP/1.1 204 299.5µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 19:00:05 |[97;42m 204 [0m|[90;47m 417.708µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/20"
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 19:00:16 CET] "POST /users/ HTTP/1.1 500 1.130708ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 19:00:16 |[97;41m 500 [0m|[90;47m   1.16ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=30&offset=0
+127.0.0.1 - [Sat, 18 Apr 2026 19:00:30 CET] "GET /users/?limit=30&offset=0 HTTP/1.1 200 422.625µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 19:00:30 |[97;42m 200 [0m|[90;47m 489.792µs [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=30&offset=0"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+127.0.0.1 - [Sat, 18 Apr 2026 19:00:55 CET] "DELETE /users/30 HTTP/1.1 204 10.708584ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 19:00:55 |[97;42m 204 [0m|[90;47m  10.82ms [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/30"
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 19:01:01 CET] "POST /users/ HTTP/1.1 201 5.59325ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 19:01:01 |[97;42m 201 [0m|[90;47m   5.66ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users/                   --> go_tdd/internal/handler.UserCreateCommand (5 handlers)
+[GIN-debug] DELETE /users/:id                --> go_tdd/internal/handler.UserDeleteCommand (5 handlers)
+[GIN-debug] GET    /users/                   --> go_tdd/internal/handler.UserGetAllQuery (5 handlers)
+127.0.0.1 - [Sat, 18 Apr 2026 20:42:39 CET] "DELETE /users/30 HTTP/1.1 204 6.102667ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 20:42:39 |[97;42m 204 [0m|[90;47m   6.22ms [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/30"
+127.0.0.1 - [Sat, 18 Apr 2026 20:42:41 CET] "DELETE /users/30 HTTP/1.1 204 308.375µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 20:42:41 |[97;42m 204 [0m|[90;47m 408.166µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/30"
+127.0.0.1 - [Sat, 18 Apr 2026 20:42:42 CET] "DELETE /users/30 HTTP/1.1 204 300.125µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 20:42:42 |[97;42m 204 [0m|[90;47m 553.791µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/30"
+127.0.0.1 - [Sat, 18 Apr 2026 20:42:42 CET] "DELETE /users/30 HTTP/1.1 204 303.542µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 20:42:42 |[97;42m 204 [0m|[90;47m  433.5µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/30"
+127.0.0.1 - [Sat, 18 Apr 2026 20:42:42 CET] "DELETE /users/30 HTTP/1.1 204 351.291µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 20:42:42 |[97;42m 204 [0m|[90;47m 459.667µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/30"
+127.0.0.1 - [Sat, 18 Apr 2026 20:42:42 CET] "DELETE /users/30 HTTP/1.1 204 342.458µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 20:42:42 |[97;42m 204 [0m|[90;47m 431.25µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/30"
+127.0.0.1 - [Sat, 18 Apr 2026 20:42:43 CET] "DELETE /users/30 HTTP/1.1 204 295.375µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 20:42:43 |[97;42m 204 [0m|[90;47m 378.416µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/30"
+127.0.0.1 - [Sat, 18 Apr 2026 20:42:46 CET] "DELETE /users/31 HTTP/1.1 204 688µs "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 20:42:46 |[97;42m 204 [0m|[90;47m  760.5µs [0m|       127.0.0.1 |[97;41m DELETE  [0m "/users/31"
+[GIN-debug] redirecting request 301: /users/ --> /users/?limit=30&offset=0
+127.0.0.1 - [Sat, 18 Apr 2026 20:42:52 CET] "GET /users/?limit=30&offset=0 HTTP/1.1 200 1.149917ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 20:42:52 |[97;42m 200 [0m|[90;47m   1.22ms [0m|       127.0.0.1 |[97;44m GET     [0m "/users/?limit=30&offset=0"
+[GIN-debug] redirecting request 307: /users/ --> /users/
+127.0.0.1 - [Sat, 18 Apr 2026 20:43:01 CET] "POST /users/ HTTP/1.1 201 1.48825ms "insomnia/12.3.1" "
+[GIN] 2026/04/18 - 20:43:01 |[97;42m 201 [0m|[90;47m   1.52ms [0m|       127.0.0.1 |[97;46m POST    [0m "/users/"
