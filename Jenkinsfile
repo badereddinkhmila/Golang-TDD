@@ -4,14 +4,14 @@ pipeline {
 
     tools {
         // Configure Go version in Jenkins (Manage Jenkins -> Global Tool Configuration)
-        go '1.26'
+        go 'go-1.25.0'
     }
 
     environment {
         // Enable Go modules
         GO111MODULE = 'on'
         // Prevent Jenkins from re-interpolating variables
-        GO_VERSION = '1.26'
+        GO_VERSION = '1.25.0'
     }
 
     stages {
