@@ -4,7 +4,7 @@ pipeline {
 
     tools {
         // Configure Go version in Jenkins (Manage Jenkins -> Global Tool Configuration)
-        go 'go-1.26'
+        go '1.26'
     }
 
     environment {
